@@ -5,7 +5,6 @@ This repositort is focused on building diffusion models from scratch. The goal i
 ## Project Structure
 ```bash
 diffusion-project/
-│   
 ├── assets/
 ├── docs/
 ├── notebooks/
