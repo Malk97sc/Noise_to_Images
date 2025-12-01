@@ -21,7 +21,7 @@ def q_sample(x0, t, alphas_bar):
 
     returns x_t
     """
-    noise = torch.rand_like(x0)
+    noise = torch.randn_like(x0)
     sqrt_ab = torch.sqrt(alphas_bar[t])
     sqrt_one_minus_ab = torch.sqrt(1 - alphas_bar[t])
     return sqrt_ab * x0 + sqrt_one_minus_ab * noise
