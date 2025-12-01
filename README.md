@@ -15,3 +15,8 @@ diffusion-project/
 ├── .gitignore
 └── README.md
 ```
+
+## References
+
+- Denoising Diffusion Probabilistic Models.
+[Paper on arXiv](https://arxiv.org/abs/2006.11239)
