@@ -2,3 +2,4 @@ DiffVenv/
 __pycache__
 diffusion_project.egg-info/
 data/
+model_weights/
